@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project';
+  onusercreate(user:{fname:string,lname:string,phone:string,email:string,psw:string,type:string,}){
+    console.log(user);
+
+  }
+  gotologin(){
+    console.log("hello")
+    }  
 }
+
